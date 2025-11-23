@@ -45,7 +45,7 @@ export default function About() {
             pour le backend Java, les APIs et les bases de données.
           </p>
           <p className="text-lg md:text-xl text-gray-300 leading-relaxed">
-            Je suis à la recherche d'un <span className="text-purple-400 font-semibold">stage de 6 mois</span> en
+            Je suis à la recherche d&apos;un <span className="text-purple-400 font-semibold">stage de 6 mois</span> en
             développement fullstack ou backend Python à partir de février/mars 2026. Mobile sur toute
             la France, je suis prête à me déplacer pour rejoindre une équipe innovante et contribuer
             activement à vos projets.

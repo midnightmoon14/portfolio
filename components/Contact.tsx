@@ -93,7 +93,7 @@ export default function Contact() {
             transition={{ duration: 0.6, delay: 0.3 }}
           >
             <p className="text-lg text-gray-300 mb-4">
-              Recherche d'un stage de 6 mois en développement fullstack ou backend Python
+              Recherche d&apos;un stage de 6 mois en développement fullstack ou backend Python
             </p>
             <p className="text-blue-400 font-semibold">
               Disponible à partir de février/mars 2026 • Mobile sur toute la France
