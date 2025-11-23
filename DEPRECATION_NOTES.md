@@ -37,9 +37,15 @@ Ces warnings proviennent de dépendances indirectes (dépendances de dépendance
 ## 🔧 Solutions appliquées
 
 1. ✅ Mise à jour de toutes les dépendances directes vers les dernières versions
-2. ✅ Ajout d'overrides pour `three-mesh-bvh` et `glob`
-3. ✅ Configuration `.npmrc` pour gérer les dépendances
-4. ✅ Résolution de toutes les vulnérabilités de sécurité
+2. ✅ Ajout d'overrides pour `three-mesh-bvh`, `glob`, `rimraf` et packages ESLint
+3. ✅ Configuration `.npmrc` pour réduire les warnings (loglevel=error)
+4. ✅ Configuration `vercel.json` pour optimiser le build
+5. ✅ Résolution de toutes les vulnérabilités de sécurité
+
+### Overrides ajoutés
+- `rimraf`: ^5.0.5 (force la dernière version)
+- `@humanwhocodes/config-array`: Remplacé par `@eslint/config-array`
+- `@humanwhocodes/object-schema`: Remplacé par `@eslint/object-schema`
 
 ## 📝 Recommandations
 
@@ -50,10 +56,30 @@ Ces warnings sont **cosmétiques** et n'affectent pas :
 
 Ils disparaîtront automatiquement lors des prochaines mises à jour de Next.js et ESLint.
 
-## 🚀 En production
+## 🚀 En production (Vercel)
 
-Ces warnings n'apparaîtront pas en production car :
-- Les dépendances sont installées une seule fois
-- Les warnings n'affectent pas le build
-- Le code compilé ne contient pas ces dépendances
+### ⚠️ Warnings sur Vercel
+
+Ces warnings apparaissent lors du build sur Vercel mais sont **normaux** et **n'affectent pas** :
+- ✅ Le déploiement (le build réussit)
+- ✅ Le fonctionnement de l'application
+- ✅ Les performances
+- ✅ La sécurité
+
+### Pourquoi ces warnings apparaissent ?
+
+1. **Next.js 14 utilise ESLint 8** (ESLint 9 n'est pas encore supporté)
+2. **Dépendances transitives** : Ces packages sont utilisés par ESLint/Next.js, pas directement par votre code
+3. **Vercel affiche tous les warnings** : Même ceux des dépendances indirectes
+
+### Solutions pour réduire les warnings
+
+Le fichier `.npmrc` est configuré avec `loglevel=error` pour réduire l'affichage des warnings lors du build.
+
+### Quand ces warnings disparaîtront ?
+
+- Quand Next.js migrera vers ESLint 9 (probablement Next.js 15+)
+- Quand les mainteneurs d'ESLint mettront à jour leurs dépendances
+
+**En attendant, vous pouvez ignorer ces warnings en toute sécurité.**
 
