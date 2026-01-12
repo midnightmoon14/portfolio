@@ -4,7 +4,7 @@ import { motion } from 'framer-motion'
 
 const skillCategories = [
   {
-    title: 'Langages & Frameworks',
+    title: 'Développement Full Stack',
     skills: [
       'JavaScript',
       'TypeScript',
@@ -13,37 +13,29 @@ const skillCategories = [
       'Angular',
       'React',
       'Spring Boot',
-      'HTML/CSS',
       'C#',
       'Python',
+      'HTML/CSS',
     ],
     color: 'from-blue-500 to-cyan-500',
   },
   {
-    title: 'Bases de données',
-    skills: ['PostgreSQL', 'MySQL', 'Supabase'],
+    title: 'Bases de données & Backend',
+    skills: ['PostgreSQL', 'MySQL', 'Supabase', 'API REST'],
     color: 'from-purple-500 to-pink-500',
   },
   {
-    title: 'Outils & Technologies',
+    title: 'Cloud & DevOps',
     skills: [
-      'Git/GitHub',
-      'Azure',
-      'Make',
-      'Forest Admin',
-      'Webflow',
-      'WordPress',
       'Microsoft Azure',
+      'CI/CD',
+      'Git/GitHub',
     ],
     color: 'from-green-500 to-emerald-500',
   },
   {
-    title: 'Compétences techniques',
+    title: 'Méthodologies & Design',
     skills: [
-      'Full Stack',
-      'API REST',
-      'CI/CD',
-      'Cloud',
       'Responsive Design',
       'UX/UI',
     ],

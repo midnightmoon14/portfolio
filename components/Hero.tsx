@@ -54,7 +54,7 @@ export default function Hero() {
           className="text-lg md:text-xl text-gray-400 mb-8 max-w-2xl mx-auto"
           variants={itemVariants}
         >
-          Spécialisée en développement fullstack Java/Angular ou React avec une
+          En cours d&apos;obtention d&apos;un Diplôme d&apos;ingénieur en Informatique, spécialisée en développement fullstack Java/Angular ou React avec une
           forte appétence pour le backend Java, les APIs et les bases de données.
         </motion.p>
 

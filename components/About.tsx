@@ -5,15 +5,15 @@ import { GraduationCap, Award } from 'lucide-react'
 
 const education = [
   {
-    institution: 'CESI BORDEAUX',
-    degree: 'Master 2 Informatique',
-    period: '2025 – 2026',
+    institution: 'CESI ÉCOLE D\'INGÉNIEURS',
+    degree: 'Diplôme d\'ingénieur en Informatique',
+    period: 'Depuis 2024',
     icon: GraduationCap,
   },
   {
     institution: 'INSTITUT SAINT JEAN (CAMEROUN)',
-    degree: 'Bachelor / Licence Informatique',
-    period: '2021 - 2025',
+    degree: 'Cycle Préparatoire / Bachelor',
+    period: '2021 - 2024',
     icon: Award,
   },
 ]
@@ -40,13 +40,13 @@ export default function About() {
           transition={{ duration: 0.6 }}
         >
           <p className="text-lg md:text-xl text-gray-300 leading-relaxed mb-6">
-            Étudiante en <span className="text-blue-400 font-semibold">Master 2 Informatique</span>,
-            spécialisée en développement fullstack Java/Angular ou React avec une forte appétence
+            En cours d&apos;obtention d&apos;un <span className="text-blue-400 font-semibold">Diplôme d&apos;ingénieur en Informatique</span>
+            , spécialisée en développement fullstack Java/Angular ou React avec une forte appétence
             pour le backend Java, les APIs et les bases de données.
           </p>
           <p className="text-lg md:text-xl text-gray-300 leading-relaxed">
-            Je suis à la recherche d&apos;un <span className="text-purple-400 font-semibold">stage de 6 mois</span> en
-            développement fullstack ou backend Python à partir de février/mars 2026. Mobile sur toute
+            Je suis à la recherche d&apos;un <span className="text-purple-400 font-semibold">stage de fin d&apos;études</span> en
+            développement logiciel & fullstack à partir de février 2026. Mobile sur toute
             la France, je suis prête à me déplacer pour rejoindre une équipe innovante et contribuer
             activement à vos projets.
           </p>
