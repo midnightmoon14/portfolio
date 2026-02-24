@@ -10,10 +10,24 @@ const experiences = [
     period: 'mai 2025 - août 2025',
     type: 'Stage',
     tasks: [
-      'Conception et développement de modules backend en Java et Kafka pour l\'automatisation de flux internes',
-      'Participation à l\'intégration d\'API REST et à la gestion de données distribuées',
-      'Contribution à la mise en place d\'environnements CI/CD et au suivi des déploiements',
-      'Collaboration avec l\'équipe produit pour améliorer la performance, la qualité du code et l\'expérience utilisateur',
+      "Conception et développement de modules backend en Java et Kafka pour l'automatisation de flux internes",
+      "Participation à l'intégration d'API REST et à la gestion de données distribuées",
+      "Contribution à la mise en place d'environnements CI/CD et au suivi des déploiements",
+      "Collaboration avec l'équipe produit pour améliorer la performance, la qualité du code et l'expérience utilisateur",
+    ],
+  },
+
+  // ✅ NOUVELLE EXPERIENCE AJOUTÉE
+  {
+    company: 'MORISET',
+    position: 'Développeuse Junior',
+    period: 'juin 2024 - août 2024',
+    type: 'Stage',
+    tasks: [
+      "Développement d’une application web de gestion de données avec interface interactive",
+      "Mise en place d’un système d’authentification sécurisé",
+      "Création d’un tableau de bord pour la visualisation des indicateurs clés",
+      "Amélioration de l’accès aux données et facilitation du suivi des informations pour les équipes internes",
     ],
   },
 ]
@@ -83,4 +97,3 @@ export default function Experience() {
     </section>
   )
 }
-
