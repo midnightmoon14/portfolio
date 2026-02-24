@@ -79,8 +79,8 @@ export default function Contact() {
                 <MapPin size={24} className="text-white" />
               </div>
               <div>
-                <p className="text-gray-400 text-sm mb-1">Localisation</p>
-                <p className="text-lg font-semibold">33290 Blanquefort</p>
+                <p className="text-gray-400 text-sm mb-1">Disponibilité/Mobilité</p>
+                <p className="text-lg font-semibold">ASAP/ mobile dans toute la France</p>
               </div>
             </motion.div>
           </div>
